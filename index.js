@@ -3,9 +3,15 @@
  */
 
 let express = require('express');
+let body_parser = require('body-parser');
 let app = express();
 
+app.use(body_parser.json());
+
 app.post('/bookbot/webhook', (req, res) => {
+  /** Dump request from API.AI. */
+  console.log(JSON.stringify(req.body, null, 2));
+
   res.type('application/json');
   res.send({
     /** Test response taken from example in API.AI documentation. */
