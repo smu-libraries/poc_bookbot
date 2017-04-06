@@ -1,0 +1,41 @@
+{
+  "id": "4612daba-a3a1-4559-969f-0dfa0d305e8d",
+  "timestamp": "2017-04-06T09:46:32.255Z",
+  "lang": "en",
+  "result": {
+    "source": "agent",
+    "resolvedQuery": "show me titles on global warming",
+    "speech": "",
+    "action": "",
+    "actionIncomplete": false,
+    "parameters": {
+      "drop": "on",
+      "medium": "book",
+      "title": "",
+      "find": "show me",
+      "subject": "global warming"
+    },
+    "contexts": [],
+    "metadata": {
+      "intentId": "b886941f-1dfc-4cd0-a635-a59950366f60",
+      "webhookUsed": "true",
+      "webhookForSlotFillingUsed": "false",
+      "intentName": "Find"
+    },
+    "fulfillment": {
+      "speech": "hit me gently",
+      "messages": [
+        {
+          "type": 0,
+          "speech": "hit me gently"
+        }
+      ]
+    },
+    "score": 1
+  },
+  "status": {
+    "code": 200,
+    "errorType": "success"
+  },
+  "sessionId": "545a27ad-14b8-4b0e-99eb-fb2ca5720f2e"
+}

@@ -9,12 +9,16 @@ let app = express();
 app.use(body_parser.json());
 
 app.post('/bookbot/webhook', (req, res) => {
-  /** Dump request from API.AI. */
-  console.log(JSON.stringify(req.body, null, 2));
+  /**
+   * Dump request from API.AI.
+   */
+  /** console.log(JSON.stringify(req.body, null, 2)); */
 
   res.type('application/json');
   res.send({
-    /** Test response taken from example in API.AI documentation. */
+    /**
+     * Test response taken from example in API.AI documentation.
+     */
     'speech': 'Barack Hussein Obama II is the 44th and current President of the United States.',
     'displayText': 'Barack Hussein Obama II is the 44th and current President of the United States, and the first African American to hold the office. Born in Honolulu, Hawaii, Obama is a graduate of Columbia University   and Harvard Law School, where ',
     'data': {
