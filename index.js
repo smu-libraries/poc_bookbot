@@ -1,9 +1,10 @@
 /**
- * Hardcoded response for API.AI webhook calls.
+ * Handles API.AI webhook calls for book search.
  */
 
 let express = require('express');
 let body_parser = require('body-parser');
+let request = require('request');
 let app = express();
 
 app.use(body_parser.json());
@@ -14,125 +15,112 @@ app.post('/bookbot/webhook', (req, res) => {
    */
   /** console.log(JSON.stringify(req.body, null, 2)); */
 
-  res.type('application/json');
-  res.send({
-    /**
-     * Test response taken from example in API.AI documentation.
-     */
-    'speech': 'Barack Hussein Obama II is the 44th and current President of the United States.',
-    'displayText': 'Barack Hussein Obama II is the 44th and current President of the United States, and the first African American to hold the office. Born in Honolulu, Hawaii, Obama is a graduate of Columbia University   and Harvard Law School, where ',
-    'data': {
-      'slack': {
-        'text': 'Today in San Francisco: Mostly Cloudy, the temperature is 66 F',
-        'attachments': [
-          {
-            'title': 'Yahoo! Weather - San Francisco, CA, US',
-            'title_link': 'http://www.yahoo.com',
-            'color': '#36a64f',
-            'fields': [
-              {
-                'title': 'Condition',
-                'value': 'Temp 66 F',
-                'short': 'false'
-              },
-              {
-                'title': 'Wind',
-                'value': 'Speed: 22, direction: 235',
-                'short': 'true'
-              },
-              {
-                'title': 'Atmosphere',
-                'value': 'Humidity 61 pressure 1009.0',
-                'short': 'true'
-              }
-            ],
-            /**
-             * 'thumb_url': '',
-             */
-            'callback_id': 'callback',
-            /**
-             * Test actions taken from example in Slack documentation.
-             */
-            'actions': [
-              {
-                'name': 'game',
-                'text': 'Chess',
-                'type': 'button',
-                'value': 'action chess'
-              },
-              {
-                'name': 'game',
-                'text': 'Falken\'s Maze',
-                'type': 'button',
-                'value': 'action maze'
-              },
-              {
-                'name': 'game',
-                'text': 'Thermonuclear War',
-                'style': 'danger',
-                'type': 'button',
-                'value': 'action war',
-                'confirm': {
-                  'title': 'Are you sure?',
-                  'text': 'Wouldn\'t you prefer a good game of chess?',
-                  'ok_text': 'Yes',
-                  'dismiss_text': 'No'
-                }
-              }
-            ]
-          },
-          /**
-           * Test response taken from example in Slack documentation.
-           */
-          {
-            'text': 'New comic book alert!',
-            'title': 'The Further Adventures of Slackbot',
-            'fields': [
-              {
-                'title': 'Volume',
-                'value': '1',
-                'short': true
-              },
-              {
-                'title': 'Issue',
-                'value': '3',
-                'short': true
-              }
-            ],
-            'author_name': 'Stanford S. Strickland',
-            'author_icon': 'http://a.slack-edge.com/7f18https://a.slack-edge.com/bfaba/img/api/homepage_custom_integrations-2x.png',
-            'image_url': 'http://i.imgur.com/OJkaVOI.jpg?1'
-          },
-          {
-            'title': 'Synopsis',
-            'text': 'After @episod pushed exciting changes to a devious new branch back in Issue 1, Slackbot notifies @don about an unexpected deploy...'
-          },
-          {
-            'fallback': 'Would you recommend it to customers?',
-            'title': 'Would you recommend it to customers?',
-            'callback_id': 'comic_1234_xyz',
-            'color': '#3AA3E3',
-            'attachment_type': 'default',
-            'actions': [
-              {
-                'name': 'recommend',
-                'text': 'Recommend',
-                'type': 'button',
-                'value': 'recommend'
-              },
-              {
-                'name': 'no',
-                'text': 'No',
-                'type': 'button',
-                'value': 'bad'
-              }
-            ]
-          }
-        ]
+  /**
+   * Prepare the PNX API call URL.
+   */
+  let title_search = req.body.result.parameters.title ? 'title,contains,' + req.body.result.parameters.title : '';
+  let subject_search = req.body.result.parameters.subject ? 'any,contains,' + req.body.result.parameters.subject : '';
+  let author_search = req.body.result.parameters.author? 'author,contains,' + req.body.result.parameters.author : '';
+  let query = 'q=' + [title_search, subject_search, author_search].filter(Boolean).join(';');
+  let limit = 'limit=3';
+  let url = 'https://api-ap.hosted.exlibrisgroup.com/primo/v1/pnxs?' + [query, limit].join('&');
+
+  /**
+   * Make the PNX API call.
+   */
+  request({
+    url: url,
+    headers: {
+      Authorization: 'apikey ' + process.env.PRIMO_API_KEY
+    }
+  }, (pnx_err, pnx_res, pnx_body) => {
+    if (pnx_err) {
+      /**
+       * Return PNX error.
+       */
+      res.type('application/json');
+      res.send({
+        speech: 'Kaput! pnx_err = ' + pnx_err,
+        displayText: 'Kaput! pnx_err = ' + pnx_err,
+        contextOut: [],
+        source: 'poc_bookbot'
+      });
+    } else if (pnx_res.statusCode != 200) {
+      /**
+       * Return PNX error.
+       */
+      res.type('application/json');
+      res.send({
+        speech: 'Kaput! pnx_res.statusCode = ' + pnx_res.statusCode,
+        displayText: 'Kaput! pnx_res.statusCode = ' + pnx_res.statusCode,
+        contextOut: [],
+        source: 'poc_bookbot'
+      });
+    } else {
+      /**
+       * Prepare the data to return.
+       */
+      let speech = '';
+      let pnx_result = JSON.parse(pnx_body);
+      switch (pnx_result.info.total) {
+        case 0:
+          speech = 'Hmmm... no good. Try rephrasing your search?';
+          break;
+
+        case 1:
+          speech = 'Lucky you! There is exactly 1 hit!';
+          break;
+
+        case 2:
+        case 3:
+          speech = `Yes! There are ${pnx_result.info.total} hits!`;
+          break;
+
+        default:
+          speech = `Yes! There are (OMG) ${pnx_result.info.total} hits! Here are the first 3...`;
       }
-    },
-    'contextOut': [],
-    'source': 'DuckDuckGo'
+      /**
+       * Format the message for Slack.
+       */
+      let slack_data = {
+        text: speech,
+        attachments: pnx_result.docs.map((x) => {
+          return {
+            color: '#36a64f',
+            author_name: x.creator ? x.creator.join(', ') : 'Gee. Who wrote this?',
+            title: x.title,
+            title_link: x['@id'],
+            text: 'An abstract comes here?',
+            fields: [
+              {
+                title: 'Type',
+                value: x['@TYPE'],
+                short: true
+              },
+              {
+                title: 'PNX ID',
+                value: x.pnxId,
+                short: true
+              }
+            ]
+          };
+        })
+      };
+
+      /**
+       * Send the response to API.AI.
+       */
+      res.type('application/json');
+      res.send({
+        speech: speech,
+        displayText: speech,
+        data: {
+          slack: slack_data
+        },
+        contextOut: [],
+        source: 'poc_bookbot'
+      });
+    }
   });
 });
 
