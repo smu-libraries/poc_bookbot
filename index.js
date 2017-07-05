@@ -20,11 +20,16 @@ app.post('/bookbot/webhook', (req, res) => {
    */
   let title_search = req.body.result.parameters.title ? 'title,contains,' + req.body.result.parameters.title : '';
   let subject_search = req.body.result.parameters.subject ? 'any,contains,' + req.body.result.parameters.subject : '';
-  let author_search = req.body.result.parameters.author? 'author,contains,' + req.body.result.parameters.author : '';
+  let author_search = req.body.result.parameters.author ? 'author,contains,' + req.body.result.parameters.author : '';
   let query = 'q=' + [title_search, subject_search, author_search].filter(Boolean).join(';');
   let limit = 'limit=3';
   let view = 'view=full';
   let url = 'https://api-ap.hosted.exlibrisgroup.com/primo/v1/pnxs?' + [query, limit, view].join('&');
+
+  /**
+   * Dump Primo API call URL.
+   */
+  /** console.log(url); */
 
   /**
    * Make the PNX API call.
@@ -87,19 +92,25 @@ app.post('/bookbot/webhook', (req, res) => {
         text: speech,
         attachments: pnx_result.docs.map((x) => {
           /**
-           * Determine the icon to display.
+           * Determine the format and icon to display.
            */
           let thumb_url = 'https://github.com/smu-libraries/poc_bookbot/blob/master/q.png?raw=true';
-          if (x.type === 'book') {
-            if (x.delivery.deliveryCategory.includes('Physical Item') && x.delivery.deliveryCategory.includes('Online Resource')) {
-              thumb_url = 'https://github.com/smu-libraries/poc_bookbot/blob/master/p_e.png?raw=true';
-            } else if (x.delivery.deliveryCategory.includes('Physical Item')) {
-              thumb_url = 'https://github.com/smu-libraries/poc_bookbot/blob/master/p.png?raw=true';
-            } else if (x.delivery.deliveryCategory.includes('Online Resource')) {
+          let format = 'Other';
+          switch (x.type) {
+            case 'book':
               thumb_url = 'https://github.com/smu-libraries/poc_bookbot/blob/master/e.png?raw=true';
-            }
-          } else if (x.type === 'other' && x.delivery.deliveryCategory.includes('Physical Item')) {
-            thumb_url = 'https://github.com/smu-libraries/poc_bookbot/blob/master/m.png?raw=true';
+              format = 'E-book';
+              break;
+            case 'pbook':
+              thumb_url = 'https://github.com/smu-libraries/poc_bookbot/blob/master/p.png?raw=true';
+              format = 'Book';
+              break;
+            case 'other':
+              if (x.delivery.deliveryCategory.includes('Alma-P')) {
+                thumb_url = 'https://github.com/smu-libraries/poc_bookbot/blob/master/m.png?raw=true';
+                format = 'Media';
+              }
+              break;
           }
 
           /**
@@ -108,20 +119,30 @@ app.post('/bookbot/webhook', (req, res) => {
           let fields = [
             {
               title: 'Format',
-              value: `\n${x.delivery.deliveryCategory} - ${x.type}`,
+              value: `\n${format}`,
               short: true
             }
           ];
           if (x.delivery.bestlocation) {
+            let call_number = x.delivery.bestlocation.callNumber.replace(/(^\s*\(?)(.*?)(\s*\)\s*$)/, '$2');
+            let library = 'Other';
+            switch (x.delivery.bestlocation.libraryCode) {
+              case 'MAIN':
+                library = 'Li Ka Shing Library';
+                break;
+              case 'KGC':
+                library = 'Kwa Geok Choo Law Library';
+                break;
+            }
             fields = fields.concat([
               {
                 title: 'Call number',
-                value: x.delivery.bestlocation.callNumber,
+                value: call_number,
                 short: true
               },
               {
                 title: 'Status',
-                value: `Currently ${x.delivery.bestlocation.availabilityStatus} @ <http://test.com|${x.delivery.bestlocation.libraryCode} - ${x.delivery.bestlocation.subLocation}>`,
+                value: `Currently ${x.delivery.bestlocation.availabilityStatus} @ <https://lti.library.smu.edu.sg/map_it/v1/libraries/${x.delivery.bestlocation.libraryCode}/locations/${x.delivery.bestlocation.subLocationCode}/search/${call_number}?view=map|${library}: ${x.delivery.bestlocation.subLocation}>`,
                 short: false
               }
             ]);
