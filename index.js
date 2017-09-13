@@ -151,6 +151,23 @@ app.post('/bookbot/webhook', (req, res) => {
             ]);
           }
 
+          /**
+           * Prepare the action buttons to display.
+           */
+          let actions = [];
+          if (x.delivery.bestlocation) {
+            if (x.type === 'pbook' && x.delivery.bestlocation.availabilityStatus !== 'available') {
+              actions = actions.concat([
+                {
+                  name: 'patron_hold_request',
+                  text: 'Reserve this book for me',
+                  type: 'button',
+                  value: `patron_hold_request ${x['@id']}`
+                }
+              ]);
+            }
+          }
+
           return {
             color: 'good',
             author_name: x.creator ? x.creator.join(', ') : 'Whodunnit?',
@@ -158,7 +175,8 @@ app.post('/bookbot/webhook', (req, res) => {
             title_link: x['@id'],
             text: x.publisher ? x.publisher.join(', ') : '',
             thumb_url: thumb_url,
-            fields: fields
+            fields: fields,
+            actions: actions
           };
         })
       };
