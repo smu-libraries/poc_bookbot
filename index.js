@@ -103,6 +103,9 @@ app.post('/bookbot/webhook', (req, res) => {
               break;
             case 'pbook':
               thumb_url = 'https://github.com/smu-libraries/poc_bookbot/blob/master/p.png?raw=true';
+              if (x.isbn13) {
+                thumb_url = `https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=${x.isbn13[0]}/SC.JPG&client=primo`
+              }
               format = 'Book';
               break;
             case 'other':

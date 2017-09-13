@@ -1,0 +1,1323 @@
+{
+  "highlights": {
+    "vertitle": [
+      "harries",
+      "Harry Potter",
+      "harry potters",
+      "harry",
+      "potters",
+      "harry potter",
+      "potter",
+      "harries potters",
+      "harries potter"
+    ],
+    "termsUnion": [
+      "harries",
+      "Harry Potter",
+      "harry potters",
+      "harry",
+      "potters",
+      "harry potter",
+      "potter",
+      "harries potters",
+      "harries potter"
+    ],
+    "title": [
+      "harries",
+      "Harry Potter",
+      "harry potters",
+      "harry",
+      "potters",
+      "harry potter",
+      "potter",
+      "harries potters",
+      "harries potter"
+    ],
+    "relation": [
+      "Harry Potter"
+    ]
+  },
+  "docs": [
+    {
+      "date": "2013",
+      "sourceId": "SMU_ALMA",
+      "creationdate": "2013], c2000",
+      "deliveryInstitution": "65SMU",
+      "subject": [
+        "Potter, Harry (Fictitious character)\u2013Juvenile fiction",
+        "Potter, Harry (Fictitious character)\u2013Fiction",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)\u2013Juvenile fiction",
+        "Granger, Hermione (Fictitious character)\u2013Juvenile fiction",
+        "Weasley, Ron (Fictitious character)\u2013Juvenile fiction",
+        "Wizards\u2013Juvenile fiction",
+        "Magic\u2013Juvenile fiction",
+        "Schools\u2013Juvenile fiction",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary place)\u2013Fiction",
+        "Wizards\u2013Fiction",
+        "Magic\u2013Fiction",
+        "Schools\u2013Fiction",
+        "Granger, Hermione (Fictitious character)",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)",
+        "Magic",
+        "Potter, Harry (Fictitious character)",
+        "Schools",
+        "Weasley, Ron (Fictitious character)",
+        "Wizards",
+        "England\u2013Juvenile fiction",
+        "England\u2013Fiction",
+        "England"
+      ],
+      "language": [
+        "http://id.loc.gov/vocabulary/iso639-2/eng"
+      ],
+      "source": "SMU_ALMA",
+      "pcGroup": "343175525",
+      "type": "pbook",
+      "relation": [
+        {
+          "@id": "_:0",
+          "label": "series ",
+          "type": "series ",
+          "relatedTitle": "Rowling, J. K. Year ... at Hogwarts ; 4."
+        }
+      ],
+      "lccn": "2000131084",
+      "addau": [
+        "GrandPré, Mary"
+      ],
+      "frbrType": "5",
+      "institution": "65SMU",
+      "enrichment": {
+        "virtualBrowseObject": {
+          "callNumber": "PZ    7            R 79835 H37 2013",
+          "isVirtualBrowseEnabled": true,
+          "callNumberBrowseField": "browse_callnumber.0.V2"
+        }
+      },
+      "context": "L",
+      "modified": "Thu Sep 14 01:16:03 SGT 2017",
+      "frbrGroupID": "343175525",
+      "identifier": [
+        {
+          "idType": "http://purl.org/dc/terms/type/pnx",
+          "@id": "_:0",
+          "id": "SMU_ALMA2136587120002601"
+        },
+        {
+          "idType": "http://purl.org/dc/terms/type/frbrgroupid",
+          "@id": "_:1",
+          "id": "343175525"
+        },
+        {
+          "idType": "http://purl.org/dc/terms/type/isbn",
+          "@id": "_:2",
+          "id": "9780545582957"
+        }
+      ],
+      "availinstitution": "$$I65SMU$$Savailable",
+      "format": "ix, 734, [16] p. : ill. ; 21 cm.",
+      "oclcid": "856909163",
+      "collection": [
+        "MAIN"
+      ],
+      "pnxId": "SMU_ALMA2136587120002601",
+      "addsrcrecordid": "9923513902601",
+      "au": [
+        "Rowling, J. K"
+      ],
+      "isbn13": [
+        "9780545582957"
+      ],
+      "publisher": [
+        "New York : Scholastic"
+      ],
+      "topic": [
+        "Potter, Harry (Fictitious character)\u2013Juvenile fiction",
+        "Potter, Harry (Fictitious character)\u2013Fiction",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)\u2013Juvenile fiction",
+        "Granger, Hermione (Fictitious character)\u2013Juvenile fiction",
+        "Weasley, Ron (Fictitious character)\u2013Juvenile fiction",
+        "Wizards\u2013Juvenile fiction",
+        "Magic\u2013Juvenile fiction",
+        "Schools\u2013Juvenile fiction",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary place)\u2013Fiction",
+        "Wizards\u2013Fiction",
+        "Magic\u2013Fiction",
+        "Schools\u2013Fiction",
+        "Granger, Hermione (Fictitious character)",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)",
+        "Magic",
+        "Potter, Harry (Fictitious character)",
+        "Schools",
+        "Weasley, Ron (Fictitious character)",
+        "Wizards",
+        "England\u2013Juvenile fiction",
+        "England\u2013Fiction",
+        "England"
+      ],
+      "isbn10": [
+        "0545582954"
+      ],
+      "oclcnum": "856909163",
+      "sourceSystem": "Alma",
+      "isbn": [
+        "9780545582957",
+        "0545582954"
+      ],
+      "description": [
+        "The Riddle house -- The scar -- The invitation -- Back to the burrow -- Weasleys' wizard wheezes -- The Portkey -- Bagman and Crouch -- The Quidditch World Cup -- The dark mark -- Mayhem at the ministry -- Aboard the Hogwarts Express -- The Triwizard Tournament -- Mad-Eye Moody -- The Unforgivable curses -- Beauxbatons and Durmstrang -- The Goblet of Fire -- The Four Champions -- The weighing of the wands -- The Hungarian Horntail -- The first task -- The house-elf liberation front -- The unexpected task -- The yule ball -- Rita Skeeter's Scoop -- The egg and the eye -- The second task -- Padfoot returns -- The madness of Mr. Crouch -- The dream -- The pensieve -- The third task -- Flesh, blood and bone -- The death eaters -- Priori Incantatem -- Veritaserum -- The parting of the ways -- The beginning.",
+        "Fourteen-year-old Harry Potter joins the Weasleys at the Quidditch World Cup, then enters his fourth year at Hogwarts Academy where he is mysteriously entered in an unusual contest that challenges his wizarding skills, friendships and character, amid signs that an old enemy is growing stronger."
+      ],
+      "title": "Harry Potter and the goblet of fire",
+      "almaId": "65SMU_INST:2136587120002601",
+      "contributor": [
+        "GrandPré, Mary"
+      ],
+      "@TYPE": "pbook",
+      "@id": "https://api-ap.hosted.exlibrisgroup.com/primo/v1/pnxs/L/SMU_ALMA2136587120002601?",
+      "pcGroupID": "343175525",
+      "delivery": {
+        "availabilityLinks": [
+          "detailsGetit1"
+        ],
+        "physicalItemTextCodes": "",
+        "displayLocation": false,
+        "availabilityLinksUrl": [
+          ""
+        ],
+        "link": [
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9780545582957/SC.JPG&client=singmanu",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:0"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:1"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9780545582957,OCLC:856909163,LCCN:2000131084&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:2"
+          },
+          {
+            "displayLabel": "$$Elinktotoc",
+            "inst4opac": "65SMU",
+            "linkURL": "http://syndetics.com/index.aspx?isbn=9780545582957/TOC.HTML&client=singmanu&type=rn12",
+            "linkType": "http://purl.org/pnx/linkType/linktotoc",
+            "@id": "_:3"
+          },
+          {
+            "displayLabel": "$$Eworldcat",
+            "inst4opac": "65SMU",
+            "linkURL": "http://www.worldcat.org/search?q=isbn%3A9780545582957",
+            "linkType": "http://purl.org/pnx/linkType/linktouc",
+            "@id": "_:4"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9780545582957/SC.JPG&client=singmanu",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:5"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9780545582957/SC.JPG&client=primo",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:6"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9780545582957,OCLC:856909163,LCCN:2000131084&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:7"
+          }
+        ],
+        "availability": [
+          "available_in_institution"
+        ],
+        "additionalLocations": true,
+        "displayedAvailability": "available_in_institution",
+        "holding": [
+          {
+            "matchForHoldings": [
+              {
+                "holdingRecord": "852##b",
+                "matchOn": "MainLocation"
+              }
+            ],
+            "subLocationCode": "Lifestyle",
+            "ilsApiId": "",
+            "libraryCode": "MAIN",
+            "isValidUser": true,
+            "mainLocation": "MAIN",
+            "callNumber": "(PZ7.R79835 H37 2013 )",
+            "adaptorid": "ALMA_01",
+            "organization": "65SMU",
+            "holdingURL": "OVP",
+            "@id": "_:0",
+            "availabilityStatus": "available",
+            "subLocation": "Lifestyle Collection Level 2",
+            "holdId": ""
+          }
+        ],
+        "bestlocation": {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "mainLocation": "MAIN",
+          "subLocationCode": "Lifestyle",
+          "callNumber": "(PZ7.R79835 H37 2013 )",
+          "organization": "65SMU",
+          "libraryCode": "MAIN",
+          "@id": "_:0",
+          "availabilityStatus": "available",
+          "subLocation": "Lifestyle Collection Level 2",
+          "holdId": "",
+          "isValidUser": true
+        },
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "activate"
+        ],
+        "feDisplayOtherLocations": false,
+        "GetIt2": {
+          "isLinktoOnline": false,
+          "displayText": "Almaviewit",
+          "hyperlinkText": "",
+          "getItTabText": "alma_tab2_avail",
+          "link": "https://ap01-a.alma.exlibrisgroup.com/view/uresolver/65SMU_INST/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2017-09-14T01%3A16%3A03IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-SMU_ALMA&req_id=&rft_dat=ie=65SMU_INST:2136587120002601,language=,view=&svc_dat=viewit&u.ignore_date_coverage=true",
+          "@id": "_:0",
+          "serviceModeGetit2": "display"
+        },
+        "GetIt1": [
+          {
+            "links": [
+              {
+                "isLinktoOnline": false,
+                "displayText": "Almagetit",
+                "hyperlinkText": "",
+                "getItTabText": "alma_tab1_avail",
+                "link": "https://ap01-a.alma.exlibrisgroup.com/view/uresolver/65SMU_INST/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2017-09-14T01%3A16%3A03IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-SMU_ALMA&req_id=&rft_dat=ie=65SMU_INST:2136587120002601,language=,view=&svc_dat=getit&user_ip={{userIp}}",
+                "@id": "_:0"
+              }
+            ],
+            "category": "Alma-P"
+          }
+        ]
+      },
+      "creator": [
+        "Rowling, J. K"
+      ],
+      "languageId": [
+        "eng"
+      ],
+      "frbrVersions": "1",
+      "adaptor": "Local Search Engine",
+      "availlibrary": "$$I65SMU$$LMAIN$$1Lifestyle Collection Level 2$$2(PZ7.R79835 H37 2013 )$$Savailable$$X65SMU_INST$$YMAIN$$ZLifestyle$$P1",
+      "@context": "https://open-na.hosted.exlibrisgroup.com/primo/contexts/pnx",
+      "originalSourceId": "65SMU_INST",
+      "seriestitle": [
+        "Rowling, J. K. Year ... at Hogwarts ; 4"
+      ],
+      "series": [
+        "Rowling, J. K. Year ... at Hogwarts ; 4"
+      ],
+      "sourcerecordid": "2136587120002601"
+    },
+    {
+      "date": "2014",
+      "sourceId": "SMU_ALMA",
+      "creationdate": "2014",
+      "deliveryInstitution": "65SMU",
+      "subject": [
+        "Potter, Harry (Fictitious character)\u2013Juvenile fiction",
+        "Granger, Hermione (Fictitious character)\u2013Juvenile fiction",
+        "Weasley, Ron (Fictitious character)\u2013Juvenile fiction",
+        "Wizards\u2013Juvenile fiction",
+        "Magic\u2013Juvenile fiction",
+        "Schools\u2013Juvenile fiction",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)\u2013Juvenile fiction",
+        "Hogwarts School of witchcraft and Wizardry (Imaginary place)\u2013Fiction",
+        "Wizards\u2013Fiction",
+        "Magic\u2013Fiction",
+        "Schools\u2013Fiction",
+        "Coming of age\u2013Fiction",
+        "England\u2013Juvenile fiction",
+        "England\u2013Fiction"
+      ],
+      "language": [
+        "http://id.loc.gov/vocabulary/iso639-2/eng"
+      ],
+      "source": "SMU_ALMA",
+      "pcGroup": "343217659",
+      "type": "pbook",
+      "relation": [
+        {
+          "@id": "_:0",
+          "label": " series ",
+          "type": " series ",
+          "relatedTitle": " Rowling, J. K. Harry Potter series ; v. 5."
+        }
+      ],
+      "frbrType": "5",
+      "institution": "65SMU",
+      "enrichment": {
+        "virtualBrowseObject": {
+          "callNumber": "PR 6068            O 93 H35 2014",
+          "isVirtualBrowseEnabled": true,
+          "callNumberBrowseField": "browse_callnumber.0.V2"
+        }
+      },
+      "context": "L",
+      "modified": "Thu Sep 14 01:16:03 SGT 2017",
+      "frbrGroupID": "343217659",
+      "identifier": [
+        {
+          "idType": "http://purl.org/dc/terms/type/pnx",
+          "@id": "_:0",
+          "id": "SMU_ALMA2137678490002601"
+        },
+        {
+          "idType": "http://purl.org/dc/terms/type/frbrgroupid",
+          "@id": "_:1",
+          "id": "343217659"
+        },
+        {
+          "idType": "http://purl.org/dc/terms/type/isbn",
+          "@id": "_:2",
+          "id": "1408855690"
+        }
+      ],
+      "availinstitution": "$$I65SMU$$Savailable",
+      "format": "799 pages ; 20 cm",
+      "oclcid": "56098238",
+      "collection": [
+        "MAIN"
+      ],
+      "pnxId": "SMU_ALMA2137678490002601",
+      "addtitle": [
+        "Order of the Phoenix"
+      ],
+      "addsrcrecordid": "9916619402601",
+      "au": [
+        "Rowling, J. K"
+      ],
+      "isbn13": [
+        "9781408855690",
+        "9780756941635"
+      ],
+      "publisher": [
+        "London : Bloomsbury"
+      ],
+      "topic": [
+        "Potter, Harry (Fictitious character)\u2013Juvenile fiction",
+        "Granger, Hermione (Fictitious character)\u2013Juvenile fiction",
+        "Weasley, Ron (Fictitious character)\u2013Juvenile fiction",
+        "Wizards\u2013Juvenile fiction",
+        "Magic\u2013Juvenile fiction",
+        "Schools\u2013Juvenile fiction",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)\u2013Juvenile fiction",
+        "Hogwarts School of witchcraft and Wizardry (Imaginary place)\u2013Fiction",
+        "Wizards\u2013Fiction",
+        "Magic\u2013Fiction",
+        "Schools\u2013Fiction",
+        "Coming of age\u2013Fiction",
+        "England\u2013Juvenile fiction",
+        "England\u2013Fiction"
+      ],
+      "isbn10": [
+        "1408855690",
+        "0756941636"
+      ],
+      "oclcnum": "56098238",
+      "sourceSystem": "Alma",
+      "isbn": [
+        "1408855690",
+        "9781408855690",
+        "9780756941635",
+        "0756941636"
+      ],
+      "description": [
+        "Dudley demented -- A peck of owls -- The advance guard -- Number twelve, Grimmauld Place -- The Order of the Phoenix -- The noble and most ancient house of Black -- The Ministry of magic -- The hearing -- The woes of Mrs. Weasley -- Luna Lovegood -- The sorting hat's new song -- Professor Umbridge -- Detention with Dolores -- Percy and Padfoot -- The Hogwarts high inquisitor -- In the hog's head -- Educational decree number twenty-four -- Dumbledore's army -- The lion and the serpent -- Hagrid's tale -- The eye of the snake -- St. Mungo's hospital for magical maladies and injuries -- Christmas on the closed ward -- Occlumency -- The Beetle at bay -- Seen and unforeseen -- The centaur and the sneak -- Snape's worst memory -- Career advice -- Grawp -- O.W.L.s -- Out of the fire -- Fight and flight -- The Department of mysteries -- Beyond the veil -- The only one he ever feared -- The lost prophecy -- The second war begins.",
+        "When the government of the magic world and authorities at Hogwarts School of Witchcraft and Wizardry refuse to believe in the growing threat of a freshly revived Lord Voldemort, fifteen-year-old Harry Potter finds support from his loyal friends in facing the evil wizard and other new terrors."
+      ],
+      "title": "Harry Potter and the Order of the Phoenix",
+      "almaId": "65SMU_INST:2137678490002601",
+      "@TYPE": "pbook",
+      "@id": "https://api-ap.hosted.exlibrisgroup.com/primo/v1/pnxs/L/SMU_ALMA2137678490002601?",
+      "pcGroupID": "343217659",
+      "delivery": {
+        "availabilityLinks": [
+          "detailsGetit1"
+        ],
+        "physicalItemTextCodes": "",
+        "displayLocation": false,
+        "availabilityLinksUrl": [
+          ""
+        ],
+        "link": [
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=1408855690/SC.JPG&client=singmanu",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:0"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:1"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:1408855690,OCLC:56098238,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:2"
+          },
+          {
+            "displayLabel": "$$Elinktotoc",
+            "inst4opac": "65SMU",
+            "linkURL": "http://syndetics.com/index.aspx?isbn=1408855690/TOC.HTML&client=singmanu&type=rn12",
+            "linkType": "http://purl.org/pnx/linkType/linktotoc",
+            "@id": "_:3"
+          },
+          {
+            "displayLabel": "$$Eworldcat",
+            "inst4opac": "65SMU",
+            "linkURL": "http://www.worldcat.org/search?q=isbn%3A1408855690",
+            "linkType": "http://purl.org/pnx/linkType/linktouc",
+            "@id": "_:4"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=1408855690/SC.JPG&client=singmanu",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:5"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=1408855690/SC.JPG&client=primo",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:6"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:1408855690,OCLC:56098238,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:7"
+          }
+        ],
+        "availability": [
+          "available_in_institution"
+        ],
+        "additionalLocations": true,
+        "displayedAvailability": "available_in_institution",
+        "holding": [
+          {
+            "matchForHoldings": [
+              {
+                "holdingRecord": "852##b",
+                "matchOn": "MainLocation"
+              }
+            ],
+            "subLocationCode": "Lifestyle",
+            "ilsApiId": "",
+            "libraryCode": "MAIN",
+            "isValidUser": true,
+            "mainLocation": "MAIN",
+            "callNumber": "(PR6068.O93 H35 2014 )",
+            "adaptorid": "ALMA_01",
+            "organization": "65SMU",
+            "holdingURL": "OVP",
+            "@id": "_:0",
+            "availabilityStatus": "available",
+            "subLocation": "Lifestyle Collection Level 2",
+            "holdId": ""
+          }
+        ],
+        "bestlocation": {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "mainLocation": "MAIN",
+          "subLocationCode": "Lifestyle",
+          "callNumber": "(PR6068.O93 H35 2014 )",
+          "organization": "65SMU",
+          "libraryCode": "MAIN",
+          "@id": "_:0",
+          "availabilityStatus": "available",
+          "subLocation": "Lifestyle Collection Level 2",
+          "holdId": "",
+          "isValidUser": true
+        },
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "activate"
+        ],
+        "feDisplayOtherLocations": false,
+        "GetIt2": {
+          "isLinktoOnline": false,
+          "displayText": "Almaviewit",
+          "hyperlinkText": "",
+          "getItTabText": "alma_tab2_avail",
+          "link": "https://ap01-a.alma.exlibrisgroup.com/view/uresolver/65SMU_INST/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2017-09-14T01%3A16%3A03IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-SMU_ALMA&req_id=&rft_dat=ie=65SMU_INST:2137678490002601,language=,view=&svc_dat=viewit&u.ignore_date_coverage=true",
+          "@id": "_:0",
+          "serviceModeGetit2": "display"
+        },
+        "GetIt1": [
+          {
+            "links": [
+              {
+                "isLinktoOnline": false,
+                "displayText": "Almagetit",
+                "hyperlinkText": "",
+                "getItTabText": "alma_tab1_avail",
+                "link": "https://ap01-a.alma.exlibrisgroup.com/view/uresolver/65SMU_INST/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2017-09-14T01%3A16%3A03IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-SMU_ALMA&req_id=&rft_dat=ie=65SMU_INST:2137678490002601,language=,view=&svc_dat=getit&user_ip={{userIp}}",
+                "@id": "_:0"
+              }
+            ],
+            "category": "Alma-P"
+          }
+        ]
+      },
+      "creator": [
+        "Rowling, J. K"
+      ],
+      "alternative": [
+        "Order of the Phoenix"
+      ],
+      "languageId": [
+        "eng"
+      ],
+      "frbrVersions": "2",
+      "adaptor": "Local Search Engine",
+      "availlibrary": "$$I65SMU$$LMAIN$$1Lifestyle Collection Level 2$$2(PR6068.O93 H35 2014 )$$Savailable$$X65SMU_INST$$YMAIN$$ZLifestyle$$P1",
+      "@context": "https://open-na.hosted.exlibrisgroup.com/primo/contexts/pnx",
+      "originalSourceId": "65SMU_INST",
+      "seriestitle": [
+        "Rowling, J. K. Harry Potter series ; v. 5"
+      ],
+      "series": [
+        "Rowling, J. K. Harry Potter series ; v. 5"
+      ],
+      "sourcerecordid": "2137678490002601"
+    },
+    {
+      "date": "2013",
+      "sourceId": "SMU_ALMA",
+      "creationdate": "2013",
+      "deliveryInstitution": "65SMU",
+      "subject": [
+        "Potter, Harry (Fictitious character)\u2013Juvenile fiction",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)\u2013Juvenile fiction",
+        "Wizards\u2013Juvenile fiction",
+        "Fantasy fiction",
+        "Children's stories"
+      ],
+      "language": [
+        "http://id.loc.gov/vocabulary/iso639-2/eng"
+      ],
+      "source": "SMU_ALMA",
+      "pcGroup": "343207604",
+      "type": "pbook",
+      "relation": [
+        {
+          "@id": "_:0",
+          "label": " series ",
+          "type": " series ",
+          "relatedTitle": " Rowling, J. K. Harry Potter series ; 7."
+        }
+      ],
+      "frbrType": "6",
+      "institution": "65SMU",
+      "enrichment": {
+        "virtualBrowseObject": {
+          "callNumber": "PZ    7            R 79835   H 36   2013",
+          "isVirtualBrowseEnabled": true,
+          "callNumberBrowseField": "browse_callnumber.0.V2"
+        }
+      },
+      "context": "L",
+      "modified": "Thu Sep 14 01:16:03 SGT 2017",
+      "frbrGroupID": "343207604",
+      "identifier": [
+        {
+          "idType": "http://purl.org/dc/terms/type/pnx",
+          "@id": "_:0",
+          "id": "SMU_ALMA2137460220002601"
+        },
+        {
+          "idType": "http://purl.org/dc/terms/type/frbrgroupid",
+          "@id": "_:1",
+          "id": "343207604"
+        },
+        {
+          "idType": "http://purl.org/dc/terms/type/isbn",
+          "@id": "_:2",
+          "id": "9781408835029"
+        }
+      ],
+      "availinstitution": "$$I65SMU$$Savailable",
+      "format": "607 pages ; 20 cm.",
+      "oclcid": "861957708",
+      "collection": [
+        "MAIN"
+      ],
+      "pnxId": "SMU_ALMA2137460220002601",
+      "addtitle": [
+        "Harry Potter and the deathly hallows"
+      ],
+      "addsrcrecordid": "9916620902601",
+      "au": [
+        "Rowling, J. K."
+      ],
+      "isbn13": [
+        "9781408835029"
+      ],
+      "publisher": [
+        "London : Bloomsbury"
+      ],
+      "topic": [
+        "Potter, Harry (Fictitious character)\u2013Juvenile fiction",
+        "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)\u2013Juvenile fiction",
+        "Wizards\u2013Juvenile fiction",
+        "Fantasy fiction",
+        "Children's stories"
+      ],
+      "isbn10": [
+        "1408835029"
+      ],
+      "oclcnum": "861957708",
+      "sourceSystem": "Alma",
+      "isbn": [
+        "9781408835029",
+        "1408835029"
+      ],
+      "description": [
+        "YA. FANTASY. Harry Potter is preparing to leave the Dursleys and Privet Drive for the last time. But the future that awaits him is full of danger, not only for him, but for anyone close to him - and Harry has already lost so much. Only by destroying Voldemort's remaining Horcruxes can Harry free himself and overcome the Dark Lord's forces of evil. In this dramatic conclusion to the Harry Potter series, Harry must leave his most loyal friends behind, and in a final perilous journey find the strength and the will to face his terrifying destiny: a deadly confrontation that is his alone to fight. Ages 15+"
+      ],
+      "title": "Harry Potter & the deathly hallows",
+      "almaId": "65SMU_INST:2137460220002601",
+      "@TYPE": "pbook",
+      "@id": "https://api-ap.hosted.exlibrisgroup.com/primo/v1/pnxs/L/SMU_ALMA2137460220002601?",
+      "pcGroupID": "343207604",
+      "delivery": {
+        "availabilityLinks": [
+          "detailsGetit1"
+        ],
+        "physicalItemTextCodes": "",
+        "displayLocation": false,
+        "availabilityLinksUrl": [
+          ""
+        ],
+        "link": [
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9781408835029/SC.JPG&client=singmanu",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:0"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:1"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "inst4opac": "65SMU",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9781408835029,OCLC:861957708,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:2"
+          },
+          {
+            "displayLabel": "$$Elinktotoc",
+            "inst4opac": "65SMU",
+            "linkURL": "http://syndetics.com/index.aspx?isbn=9781408835029/TOC.HTML&client=singmanu&type=rn12",
+            "linkType": "http://purl.org/pnx/linkType/linktotoc",
+            "@id": "_:3"
+          },
+          {
+            "displayLabel": "$$Eworldcat",
+            "inst4opac": "65SMU",
+            "linkURL": "http://www.worldcat.org/search?q=isbn%3A9781408835029",
+            "linkType": "http://purl.org/pnx/linkType/linktouc",
+            "@id": "_:4"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9781408835029/SC.JPG&client=singmanu",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:5"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/syndetics.com/index.aspx?isbn=9781408835029/SC.JPG&client=primo",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:6"
+          },
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-ap.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9781408835029,OCLC:861957708,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "http://purl.org/pnx/linkType/thumbnail",
+            "@id": "_:7"
+          }
+        ],
+        "availability": [
+          "available_in_institution"
+        ],
+        "additionalLocations": true,
+        "displayedAvailability": "available_in_institution",
+        "holding": [
+          {
+            "matchForHoldings": [
+              {
+                "holdingRecord": "852##b",
+                "matchOn": "MainLocation"
+              }
+            ],
+            "subLocationCode": "Lifestyle",
+            "ilsApiId": "",
+            "libraryCode": "MAIN",
+            "isValidUser": true,
+            "mainLocation": "MAIN",
+            "callNumber": "(PZ7.R79835 H36 2013 )",
+            "adaptorid": "ALMA_01",
+            "organization": "65SMU",
+            "holdingURL": "OVP",
+            "@id": "_:0",
+            "availabilityStatus": "available",
+            "subLocation": "Lifestyle Collection Level 2",
+            "holdId": ""
+          }
+        ],
+        "bestlocation": {
+          "matchForHoldings": [
+            {
+              "holdingRecord": "852##b",
+              "matchOn": "MainLocation"
+            }
+          ],
+          "mainLocation": "MAIN",
+          "subLocationCode": "Lifestyle",
+          "callNumber": "(PZ7.R79835 H36 2013 )",
+          "organization": "65SMU",
+          "libraryCode": "MAIN",
+          "@id": "_:0",
+          "availabilityStatus": "available",
+          "subLocation": "Lifestyle Collection Level 2",
+          "holdId": "",
+          "isValidUser": true
+        },
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "activate"
+        ],
+        "feDisplayOtherLocations": false,
+        "GetIt2": {
+          "isLinktoOnline": false,
+          "displayText": "Almaviewit",
+          "hyperlinkText": "",
+          "getItTabText": "alma_tab2_avail",
+          "link": "https://ap01-a.alma.exlibrisgroup.com/view/uresolver/65SMU_INST/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2017-09-14T01%3A16%3A03IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-SMU_ALMA&req_id=&rft_dat=ie=65SMU_INST:2137460220002601,language=,view=&svc_dat=viewit&u.ignore_date_coverage=true",
+          "@id": "_:0",
+          "serviceModeGetit2": "display"
+        },
+        "GetIt1": [
+          {
+            "links": [
+              {
+                "isLinktoOnline": false,
+                "displayText": "Almagetit",
+                "hyperlinkText": "",
+                "getItTabText": "alma_tab1_avail",
+                "link": "https://ap01-a.alma.exlibrisgroup.com/view/uresolver/65SMU_INST/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2017-09-14T01%3A16%3A03IST&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-SMU_ALMA&req_id=&rft_dat=ie=65SMU_INST:2137460220002601,language=,view=&svc_dat=getit&user_ip={{userIp}}",
+                "@id": "_:0"
+              }
+            ],
+            "category": "Alma-P"
+          }
+        ]
+      },
+      "creator": [
+        "Rowling, J. K."
+      ],
+      "alternative": [
+        "Harry Potter and the deathly hallows"
+      ],
+      "languageId": [
+        "eng"
+      ],
+      "adaptor": "Local Search Engine",
+      "availlibrary": "$$I65SMU$$LMAIN$$1Lifestyle Collection Level 2$$2(PZ7.R79835 H36 2013 )$$Savailable$$X65SMU_INST$$YMAIN$$ZLifestyle$$P1",
+      "@context": "https://open-na.hosted.exlibrisgroup.com/primo/contexts/pnx",
+      "originalSourceId": "65SMU_INST",
+      "seriestitle": [
+        "Rowling, J. K. Harry Potter series ; 7"
+      ],
+      "series": [
+        "Rowling, J. K. Harry Potter series ; 7"
+      ],
+      "sourcerecordid": "2137460220002601"
+    }
+  ],
+  "timelog": {
+    "BriefSearchDeltaTime": 219,
+    "DoSearchPrimoResultDeltaTime": 180,
+    "StartBriefSearch": 1505322963669,
+    "retrieveHighLightsDeltaTime": 39,
+    "retrieveDidUMeanDeltaTime": 39,
+    "GetSearchStatusDeltaTime": 180,
+    "StartTranslationTime": 1505322963849,
+    "AddSearchStatusDeltaTime": 0,
+    "FullEndDMDataDeltaTime": 38,
+    "retrieveFacetsDeltaTime": 39
+  },
+  "lang3": "eng",
+  "info": {
+    "total": 23,
+    "last": "3",
+    "maxTotal": 0,
+    "first": "1"
+  },
+  "facets": [
+    {
+      "values": [
+        {
+          "count": 3,
+          "value": "Fiennes, Ralph"
+        },
+        {
+          "count": 5,
+          "value": "Heyday Films"
+        },
+        {
+          "count": 2,
+          "value": "Revenson, Jody"
+        },
+        {
+          "count": 3,
+          "value": "Gambon, Michael"
+        },
+        {
+          "count": 4,
+          "value": "Barron, David"
+        },
+        {
+          "count": 1,
+          "value": "McBurney, Simon"
+        },
+        {
+          "count": 10,
+          "value": "Rowling, J. K"
+        },
+        {
+          "count": 5,
+          "value": "Grint, Rupert"
+        },
+        {
+          "count": 5,
+          "value": "Watson, Emma"
+        },
+        {
+          "count": 1,
+          "value": "Shaw, Fiona"
+        },
+        {
+          "count": 1,
+          "value": "Williams, Mark"
+        },
+        {
+          "count": 5,
+          "value": "Radcliffe, Daniel"
+        },
+        {
+          "count": 5,
+          "value": "Heyman, David"
+        },
+        {
+          "count": 5,
+          "value": "Rickman, Alan"
+        },
+        {
+          "count": 4,
+          "value": "Yates, David"
+        },
+        {
+          "count": 5,
+          "value": "Warner Home Video (Firm)"
+        },
+        {
+          "count": 4,
+          "value": "Kloves, Steven"
+        },
+        {
+          "count": 1,
+          "value": "Wright, Bonnie"
+        },
+        {
+          "count": 5,
+          "value": "Warner Bros. Pictures (1969- )"
+        },
+        {
+          "count": 4,
+          "value": "GrandPré, Mary"
+        }
+      ],
+      "name": "creator"
+    },
+    {
+      "values": [
+        {
+          "count": 2,
+          "value": "spa"
+        },
+        {
+          "count": 1,
+          "value": "chi"
+        },
+        {
+          "count": 1,
+          "value": "fre"
+        },
+        {
+          "count": 1,
+          "value": "und"
+        },
+        {
+          "count": 23,
+          "value": "eng"
+        }
+      ],
+      "name": "lang"
+    },
+    {
+      "values": [
+        {
+          "count": 11,
+          "value": "pbook"
+        },
+        {
+          "count": 10,
+          "value": "books"
+        },
+        {
+          "count": 5,
+          "value": "media"
+        }
+      ],
+      "name": "rtype"
+    },
+    {
+      "values": [
+        {
+          "count": 4,
+          "value": "Hogwarts School of Witchcraft and Wizardry (Imaginary place)"
+        },
+        {
+          "count": 9,
+          "value": "Magic"
+        },
+        {
+          "count": 4,
+          "value": "English literature"
+        },
+        {
+          "count": 6,
+          "value": "England"
+        },
+        {
+          "count": 3,
+          "value": "Children's stories, English"
+        },
+        {
+          "count": 3,
+          "value": "Granger, Hermione (Fictitious character)"
+        },
+        {
+          "count": 2,
+          "value": "Fantasy fiction, English"
+        },
+        {
+          "count": 3,
+          "value": "Rowling, J. K"
+        },
+        {
+          "count": 3,
+          "value": "Weasley, Ron (Fictitious character)"
+        },
+        {
+          "count": 4,
+          "value": "English"
+        },
+        {
+          "count": 1,
+          "value": "Rowling, J. K. -- Themes, motives"
+        },
+        {
+          "count": 8,
+          "value": "Hogwarts School of Witchcraft and Wizardry (Imaginary organization)"
+        },
+        {
+          "count": 14,
+          "value": "Potter, Harry (Fictitious character)"
+        },
+        {
+          "count": 2,
+          "value": "Fantasy"
+        },
+        {
+          "count": 5,
+          "value": "Languages & Literatures"
+        },
+        {
+          "count": 9,
+          "value": "Wizards"
+        },
+        {
+          "count": 2,
+          "value": "Harry Potter films"
+        },
+        {
+          "count": 2,
+          "value": "Children's literature"
+        },
+        {
+          "count": 2,
+          "value": "Children"
+        },
+        {
+          "count": 5,
+          "value": "Schools"
+        }
+      ],
+      "name": "topic"
+    },
+    {
+      "values": [
+        {
+          "count": 10,
+          "value": "available"
+        },
+        {
+          "count": 10,
+          "value": "online_resources"
+        }
+      ],
+      "name": "tlevel"
+    },
+    {
+      "values": [
+        {
+          "count": 11,
+          "value": "pbook"
+        },
+        {
+          "count": 10,
+          "value": "books"
+        },
+        {
+          "count": 5,
+          "value": "audio_video"
+        }
+      ],
+      "name": "pfilter"
+    },
+    {
+      "values": [
+        {
+          "count": 2,
+          "value": "2001"
+        },
+        {
+          "count": 1,
+          "value": "2000"
+        },
+        {
+          "count": 2,
+          "value": "2011"
+        },
+        {
+          "count": 5,
+          "value": "2009"
+        },
+        {
+          "count": 1,
+          "value": "1998"
+        },
+        {
+          "count": 1,
+          "value": "2007"
+        },
+        {
+          "count": 1,
+          "value": "2006"
+        },
+        {
+          "count": 4,
+          "value": "2016"
+        },
+        {
+          "count": 1,
+          "value": "2005"
+        },
+        {
+          "count": 2,
+          "value": "2015"
+        },
+        {
+          "count": 2,
+          "value": "2014"
+        },
+        {
+          "count": 3,
+          "value": "2013"
+        },
+        {
+          "count": 1,
+          "value": "2002"
+        }
+      ],
+      "name": "creationdate"
+    },
+    {
+      "values": [
+        {
+          "count": 13,
+          "value": "MAIN"
+        }
+      ],
+      "name": "domain"
+    },
+    {
+      "values": [
+        {
+          "count": 3,
+          "value": "Feature films"
+        },
+        {
+          "count": 3,
+          "value": "Film adaptations"
+        },
+        {
+          "count": 1,
+          "value": "Fantasy drama"
+        },
+        {
+          "count": 3,
+          "value": "Action and adventure films"
+        },
+        {
+          "count": 7,
+          "value": "Juvenile fiction"
+        },
+        {
+          "count": 2,
+          "value": "Video recordings for the hearing impaired"
+        },
+        {
+          "count": 1,
+          "value": "Fantasy fiction"
+        },
+        {
+          "count": 1,
+          "value": "Juvenile drama"
+        },
+        {
+          "count": 6,
+          "value": "Drama"
+        },
+        {
+          "count": 3,
+          "value": "Fantasy films"
+        },
+        {
+          "count": 2,
+          "value": "Fiction films"
+        },
+        {
+          "count": 1,
+          "value": "Harry Potter films"
+        },
+        {
+          "count": 9,
+          "value": "Electronic books"
+        },
+        {
+          "count": 2,
+          "value": "Juvenile works"
+        },
+        {
+          "count": 6,
+          "value": "Fiction"
+        }
+      ],
+      "name": "genre"
+    },
+    {
+      "values": [
+        {
+          "count": 13,
+          "value": "MAIN"
+        }
+      ],
+      "name": "library"
+    },
+    {
+      "values": [
+        {
+          "count": 1,
+          "value": "30 days back"
+        },
+        {
+          "count": 2,
+          "value": "90 days back"
+        }
+      ],
+      "name": "newrecords"
+    },
+    {
+      "values": [
+        {
+          "count": 5,
+          "value": "Media Collection Level 2"
+        },
+        {
+          "count": 1,
+          "value": "Books Level 3"
+        },
+        {
+          "count": 10,
+          "value": "Lifestyle Collection Level 2"
+        }
+      ],
+      "name": "local5"
+    }
+  ],
+  "beaconO22": "220"
+}
